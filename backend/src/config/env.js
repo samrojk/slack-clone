@@ -12,3 +12,5 @@ export const ENV = {
     INNGEST_ENDPOINT: process.env.INNGEST_ENDPOINT,
     INNGEST_SIGNING_KEY: process.env.INNGEST_SIGNING_KEY,
 };
+
+// mongodb pass - nxQ34JObBSHsihEA
