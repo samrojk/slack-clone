@@ -17,8 +17,10 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "inngest": "^3.54.2",
-    "mongoose": "^8.16.5"
+    "inngest": "^4.2.6",
+    "mongoose": "^8.16.5",
+    "serialize-error-cjs": "^0.2.0",
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
