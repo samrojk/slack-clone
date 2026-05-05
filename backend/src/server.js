@@ -10,18 +10,11 @@ const app = express();
 app.use(express.json()); // for parsing application/json
 app.use(clerkMiddleware()); // req.auth will be available now
 
-// const PORT = ENV.PORT || 5001;
-
 app.use("api/inngest", serve({ client: inngest, functions }));
 
 app.get("/", (req, res) => {
   res.send("Hello World");
 });
-
-// app.listen(ENV.PORT, () => {
-//   console.log(`Server is running on port ${ENV.PORT}`);
-//   connectDB();
-// });
 
 const startServer = async () => {
   try {
